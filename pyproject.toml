@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python_windows_service_sample"
+version = "0.1.0"
+description = ""
+authors = ["RAUTELA Saurabh <saurabh@rautela.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pywin32 = "^227"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pylint = "^2.4.4"
+pyinstaller = "^3.6"
+pefile = "^2019.4.18"
+pywin32-ctypes = "^0.2.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
