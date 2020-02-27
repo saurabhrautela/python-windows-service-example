@@ -23,7 +23,7 @@ import win32serviceutil
 
 
 class TestService(win32serviceutil.ServiceFramework):
-    """Windows service to log the its state in a file."""
+    """Windows service to log its state in a file."""
 
     _svc_name_ = "TestService"
     _svc_display_name_ = "TestService"
